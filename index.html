@@ -2280,54 +2280,42 @@
     <link
       rel="preload"
       as="font"
-      href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway"
+      href="fonts/raleway.css"
       onload="this.rel='stylesheet'"
     />
 
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <link rel="stylesheet" href="css/ecommerce.css" />
+
+    <link rel="stylesheet" href="css/icons.css" />
+
     <link
+      media="none"
+      onload="if(media!='all')media='all'"
       rel="stylesheet"
-      href="https://nelsonerege.websites.co.in/elegance/css/bootstrap.min.css?v=1070060885"
+      href="css/customtoast.css"
     />
 
     <link
       rel="stylesheet"
-      href="https://nelsonerege.websites.co.in/elegance/css/custom.min.css?v=379997762"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://nelsonerege.websites.co.in/elegance/css/ecommerce.min.css?v=1432004210"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.7.0/css/flag-icons.min.css"
+      href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css"
     />
 
     <link
       media="none"
       onload="if(media!='all')media='all'"
       rel="stylesheet"
-      href="https://nelsonerege.websites.co.in/common/css/custom-toast.css"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://nelsonerege.websites.co.in/elegance/fonts/css/all.min.css"
-    />
-
-    <link
-      media="none"
-      onload="if(media!='all')media='all'"
-      rel="stylesheet"
-      href="https://nelsonerege.websites.co.in/common/css/aos.css"
+      href="css/aos.css"
     />
 
     <!-- Select2 css files -->
     <link
       media="none"
       onload="if(media!='all')media='all'"
-      href="https://nelsonerege.websites.co.in/common/css/select2.min.css"
+      href="css/select2.css"
       rel="stylesheet"
     />
 
@@ -2335,26 +2323,17 @@
     <link rel="manifest" href="/manifest.json?theme_color=%23f2b531" />
 
     <link rel="canonical" href="https://nelsonerege.websites.co.in/index.php" />
-
+    <!-- 
     <link
       rel="alternate"
       href="https://nelsonerege.websites.co.in"
       hreflang="en-us"
-    />
+    /> -->
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css"
-    />
+    <link rel="stylesheet" href="css/fancybox.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://nelsonerege.websites.co.in/elegance/slick/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://nelsonerege.websites.co.in/elegance/slick/slick-theme.css"
-    />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
 
     <!-- Dynamic styles -->
     <script>
@@ -2630,7 +2609,7 @@ var s = {
           <!-- Use any element to open/show the overlay navigation menu -->
           <span style="width: 1.2rem; cursor: pointer" onclick="openNav()">
             <img
-              src="https://nelsonerege.websites.co.in/elegance/img/defaults/menu.svg"
+              src="icons/menu.svg"
               alt="website menu logo"
               title="website menu logo"
             />
@@ -2645,7 +2624,7 @@ var s = {
             <span>
               <img
                 style="width: 1.2rem; cursor: pointer"
-                src="https://nelsonerege.websites.co.in/elegance/img/defaults/magnifying-glass.svg"
+                src="icons/magnifying-glass.svg"
                 alt="website search"
                 title="website search"
               />
@@ -2773,7 +2752,11 @@ var s = {
                   <div class="col-md-3 mx-auto">
                     <div class="nav-links">
                       <span>
-                        <a title="go to Updates" href="#" class="main-link">
+                        <a
+                          title="go to Updates"
+                          href="#update-section"
+                          class="main-link"
+                        >
                           02. Updates
                         </a>
                       </span>
@@ -2783,7 +2766,11 @@ var s = {
                   <div class="col-md-3 mx-auto">
                     <div class="nav-links">
                       <span>
-                        <a title="go to Contact" href="#" class="main-link">
+                        <a
+                          title="go to Contact"
+                          href="#business-section"
+                          class="main-link"
+                        >
                           03. Contact
                         </a>
                       </span>
@@ -2844,9 +2831,7 @@ var s = {
         <div class="slider-container">
           <div
             class="slide active"
-            style="
-              background-image: url(https://nelsonerege.websites.co.in/elegance/img/defaults/slider-default-bg.webp);
-            "
+            style="background-image: url(icons/slider-default-bg.webp)"
           >
             <div class="slide-clickable-overlay"></div>
             <div class="info">
@@ -2854,7 +2839,7 @@ var s = {
               <a
                 class="btn btn-primary btn-sm custom-sm-btn-style shadow-sm br-2 m-2"
                 title="contact Nelson Erege"
-                href="#"
+                href="#newsletter-section"
               >
                 Reach Us
               </a>
@@ -3088,11 +3073,7 @@ var s = {
         <div class="row">
           <div class="col-md-12">
             <div class="fold-header pt-4">
-              <h2
-                class="rellax"
-                data-rellax-speed="1"
-                data-rellax-percentage="1"
-              >
+              <h2 class="rellax">
                 <span>Updates</span>
               </h2>
             </div>
@@ -3114,7 +3095,7 @@ var s = {
                       <img
                         id="update-video-thumb-2205006"
                         class="img-fluid"
-                        src="https://nelsonerege.websites.co.in/elegance/img/defaults/place_holder.webp"
+                        src="icons/place_holder.webp"
                         alt="Welcome to Nelson Erege"
                       />
                     </div>
@@ -3167,10 +3148,7 @@ var s = {
                       class="mt-5"
                     >
                       Read More..
-                      <img
-                        src="https://nelsonerege.websites.co.in/elegance/img/defaults/arrow.webp"
-                        alt="read more"
-                      />
+                      <img src="icons/arrow.webp" alt="read more" />
                     </a>
                   </div>
                 </div>
@@ -3360,7 +3338,7 @@ var s = {
 
             <div class="mt-4">
               <a
-                href="#"
+                href="mailto:e**************@g*****.com"
                 title="go to contact page of Nelson Erege"
                 class="btn btn-primary btn-sm p-2 br-2 shadow"
               >
@@ -3456,7 +3434,7 @@ var s = {
       >
         <img
           class="quick-float-icon"
-          src="https://nelsonerege.websites.co.in/img/svg-icons/whatsapp.svg"
+          src="icons/whatsapp.svg"
           alt="WhatsApp"
           title="message Nelson Erege on WhatsApp"
         />
@@ -3472,7 +3450,7 @@ var s = {
       >
         <img
           class="quick-float-icon"
-          src="https://nelsonerege.websites.co.in/img/svg-icons/google.svg"
+          src="icons/google.svg"
           alt="Google Map"
           title="view Nelson Erege on google map"
         />
@@ -3502,7 +3480,7 @@ var s = {
           <i class="fa fa-times" aria-hidden="true"></i>
         </div>
       </div>
-
+<!-- 
       <div class="report-box-body">
         <form class="report-form" role="form" id="report-form">
           <input
@@ -3673,278 +3651,27 @@ var s = {
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div id="custom-toast-body"></div>
 
     <div class="pqv-bg" id="pqv-popup-bg"></div>
 
-    <div class="pqv-wrap" id="pqv-popup">
-      <div class="pqv-container">
-        <div class="pqv-content">
-          <div class="lightbox-content">
-            <div class="product-quick-view-container">
-              <button
-                type="button"
-                class="pqv-close pqv-close-btn"
-                id="pqv-popup-close-btn"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-x"
-                >
-                  <line x1="18" y1="6" x2="6" y2="18"></line>
-                  <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-              </button>
+   
 
-              <div class="product-info-col" id="pqv-data">
-                <div class="product-info">
-                  <h4 class="product-name" id="pqv-data-pname"></h4>
-                  <div class="product-price-row">
-                    <p class="p-price">
-                      <span
-                        id="pqv-data-pcurrency"
-                        class="_pqv_currency"
-                      ></span>
-                      <span id="pqv-data-pprice" class="_pqv_price"></span>
-                    </p>
-                  </div>
-                  <div class="product-variants-row" id="pqv-choices-area"></div>
-
-                  <div class="product-action-row">
-                    <p class="_pqv_error_msg" style="color: red"></p>
-                    <input
-                      type="number"
-                      min="1"
-                      value="1"
-                      name="pquantity"
-                      id="pqv-pquantity"
-                    />
-                  </div>
-
-                  <div class="product-categories-row" style="display: none">
-                    <p class="p-cat-label">Category:</p>
-                    <a href="#" class="p-cat" id="pqv-data-pcategory"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- jquery-3.3.1 -->
+    <!-- jquery-3 -->
     <script src="https://nelsonerege.websites.co.in/common/js/jquery-3.3.1.min.js"></script>
 
-    <!-- jquery cookie plugin -->
-    <script src="https://nelsonerege.websites.co.in/common/js/jquery.cookie.js"></script>
-
-    <!-- popup on cookie check-->
-    <script src="https://nelsonerege.websites.co.in/common/js/popup-on-cookie.js"></script>
-
-    <!-- Custom Toast-->
-    <script src="https://nelsonerege.websites.co.in/common/js/custom-toast.js"></script>
-
-    <!-- modernizr js -->
-    <script src="https://nelsonerege.websites.co.in/elegance/js/vendor/modernizr-custom.js"></script>
-
-    <!-- Select2 js files -->
-    <script src="https://nelsonerege.websites.co.in/common/js/select2.full.min.js"></script>
-
+   
     <!-- Bootstrap Scripts -->
     <script src="https://nelsonerege.websites.co.in/elegance/js/vendor/bootstrap.bundle.min.js"></script>
 
-    <!-- gcaptcha -->
-    <script
-      type="text/javascript"
-      src="https://nelsonerege.websites.co.in/elegance/js/gRecaptchaExplicitRender.js"
-    ></script>
+    
 
     <!-- CUSTOM Scripts -->
     <script src="https://nelsonerege.websites.co.in/elegance/js/main.js?v=805871460"></script>
 
-    <!-- Clicks Script -->
-    <script
-      type="text/javascript"
-      src="https://nelsonerege.websites.co.in/common/js/clicks.js"
-    ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.8.0/rellax.min.js"></script>
-
-    <script
-      type="text/javascript"
-      src="https://nelsonerege.websites.co.in/common/js/aos.js"
-    ></script>
-
-    <script>
-      // rellax initialization
-      if (document.getElementsByClassName("rellax").length > 0) {
-        var rellax = new Rellax(".rellax");
-      }
-
-      // AOS initialization
-      AOS.init();
-    </script>
-
-    <script type="text/javascript">
-      if ("serviceWorker" in navigator) {
-        try {
-          navigator.serviceWorker
-            .register(
-              "https://nelsonerege.websites.co.in/service.worker.js?v=1986182342"
-            )
-            .then(
-              function (registration) {
-                // Registration was successful
-                console.log(
-                  "Laravel PWA: ServiceWorker registration successful with scope: ",
-                  registration.scope
-                );
-              },
-              function (err) {
-                // registration failed :(
-                console.log(
-                  "Laravel PWA: ServiceWorker registration failed: ",
-                  err
-                );
-              }
-            );
-        } catch (error) {
-          console.log("service worker failed");
-        }
-      }
-    </script>
-
-    <script src="//www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
-
-    <!-- Custom Script -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
-
-    <script
-      type="text/javascript"
-      src="https://nelsonerege.websites.co.in/elegance/slick/slick.min.js"
-    ></script>
-
-    <script
-      type="text/javascript"
-      src="https://nelsonerege.websites.co.in/common/js/imagesloaded.pkgd.min.js"
-    ></script>
-
-    <script
-      type="text/javascript"
-      src="https://nelsonerege.websites.co.in/common/js/isotope.pkgd.min.js"
-    ></script>
-
-    <script>
-      // init Isotope FOR HOME PAGE
-      var home_ig = document.querySelector(".home-isotope-grid");
-      var childCount = 0;
-      if (home_ig) {
-        childCount = home_ig.childElementCount;
-      }
-
-      if (childCount > 0) {
-        $(".home-isotope-grid").imagesLoaded(function () {
-          $(".home-isotope-grid").isotope({
-            itemSelector: ".home-isotope-item",
-            layoutMode: "masonry",
-          });
-        });
-      }
-    </script>
-
-    <script>
-      // Hero Slider
-      var slides = document.querySelectorAll(".slider-container .slide");
-      var eraser = document.querySelector(".eraser");
-      var prev = document.getElementById("previous");
-      var next = document.getElementById("next");
-      var intervalTime = 10000;
-      // var eraserActiveTime = 700;
-      var eraserActiveTime = 0;
-      var sliderInterval;
-
-      var nextSlide = function nextSlide() {
-        // eraser.classList.add("active");
-        setTimeout(function () {
-          var active = document.querySelector(".slide.active");
-          active.classList.toggle("active");
-
-          if (active.nextElementSibling) {
-            active.nextElementSibling.classList.toggle("active");
-          } else {
-            slides[0].classList.toggle("active");
-          }
-
-          setTimeout(function () {
-            eraser.classList.remove("active");
-          }, 200);
-        }, eraserActiveTime);
-      };
-
-      var prevSlide = function prevSlide() {
-        // eraser.classList.add("active");
-        setTimeout(function () {
-          var active = document.querySelector(".slide.active");
-          active.classList.toggle("active");
-
-          if (active.previousElementSibling) {
-            active.previousElementSibling.classList.toggle("active");
-          } else {
-            slides[slides.length - 1].classList.toggle("active");
-          }
-
-          setTimeout(function () {
-            eraser.classList.remove("active");
-          }, 200);
-        }, eraserActiveTime);
-      };
-
-      if (next) {
-        next.addEventListener("click", function () {
-          nextSlide();
-          clearInterval(sliderInterval);
-          sliderInterval = setInterval(nextSlide, intervalTime);
-        });
-      }
-
-      if (prev) {
-        prev.addEventListener("click", function () {
-          prevSlide();
-          clearInterval(sliderInterval);
-          sliderInterval = setInterval(nextSlide, intervalTime);
-        });
-      }
-
-      sliderInterval = setInterval(nextSlide, intervalTime); // Initial slide
-
-      setTimeout(nextSlide, 500);
-    </script>
-
-    <script type="text/javascript">
-      window.NREUM || (NREUM = {});
-      NREUM.info = {
-        beacon: "bam.nr-data.net",
-        licenseKey: "1e7946724e",
-        applicationID: "31671751",
-        transactionName: "YVNTMEdUW0FYBk1QXFgZcAdBXFpcFg1WVFY=",
-        queueTime: 0,
-        applicationTime: 296,
-        atts: "TRRQRg9OSE8=",
-        errorBeacon: "bam.nr-data.net",
-        agent: "",
-      };
-    </script>
+    
   </body>
 </html>
