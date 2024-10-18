@@ -1,0 +1,15 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Nelson Erege",
+  "license": "ISC",
+  "description": "portfolio",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

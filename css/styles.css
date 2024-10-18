@@ -1,0 +1,7 @@
+.projectBtn {
+  text-transform: none;
+  border-radius: 300px;
+  background: none;
+  border: none;
+  color: var(--primary);
+}
